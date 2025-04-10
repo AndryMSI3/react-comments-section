@@ -64,10 +64,6 @@ const DefaultComponent = () => {
           currentUserFullName: 'Riya Negi'
         }}
         commentData={data}
-        logIn={{
-          onLogin: () => alert('Call login function '),
-          signUpLink: 'http://localhost:3001/'
-        }}
         placeHolder='Write your comment...'
         onSubmitAction={(data: {
           userId: string

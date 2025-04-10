@@ -73,10 +73,6 @@ class ClassComponent extends PureComponent {
           placeHolder='Write your comment...'
           commentData={this.state.data}
           onSubmitAction={(data: any) => this.onSubmitAction(data)}
-          logIn={{
-            onLogin: () => alert('Call login function '),
-            signUpLink: 'http://localhost:3001/'
-          }}
         />
       </div>
     )

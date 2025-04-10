@@ -72,10 +72,6 @@ const CustomComponent = () => {
         currentData={(data: any) => {
           console.log('current data', data)
         }}
-        logIn={{
-          onLogin: () => alert('Call login function '),
-          signUpLink: 'http://localhost:3001/'
-        }}
         onSubmitAction={(data: {
           userId: string
           comId: string

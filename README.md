@@ -68,10 +68,6 @@ const DefaultComponent = () => {
             'https://www.linkedin.com/in/riya-negi-8879631a9/',
           currentUserFullName: 'Riya Negi'
         }}
-        logIn={{
-          onLogin: () => alert('Call login function '),
-          signUpLink: 'http://localhost:3001/'
-        }}
         commentData={data}
         placeholder="Write your comment..."
         onSubmitAction={(data: {
@@ -146,10 +142,6 @@ class ClassComponent extends PureComponent {
       commentData={this.state.data}
       onSubmitAction={(data: any) => this.onSubmitAction(data)}
       customNoComment={() => this.customNoComment()}
-      logIn={{
-        onLogin: () => alert('Call login function '),
-        signUpLink: 'http://localhost:3001/'
-      }}
       placeholder="Write your comment..."
     />)
   }

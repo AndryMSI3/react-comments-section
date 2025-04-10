@@ -88,10 +88,6 @@ const AdvancedComponent = () => {
         currentData={(data: any) => {
           console.log('current data', data)
         }}
-        logIn={{
-          onLogin: () => alert('Call login function '),
-          signUpLink: 'http://localhost:3001/'
-        }}
         customImg='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2015%2F04%2F05%2Ffeatured.jpg&q=60'
         inputStyle={{ border: '1px solid rgb(208 208 208)' }}
         formStyle={{ backgroundColor: 'white' }}

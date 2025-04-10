@@ -53,10 +53,6 @@ const LogInComponent = () => {
       <CommentSection
         currentUser={null}
         commentData={data}
-        logIn={{
-          onLogin: () => alert('Call login function '),
-          signUpLink: 'http://localhost:3001/'
-        }}
         showTimestamp={false}
       />
     </div>
