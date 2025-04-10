@@ -26,7 +26,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": ">=16.0.0"
+    "react": ">=16.0.0",
+    "react-draft-wysiwyg": "*"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -38,7 +39,6 @@
     "@types/node": "^12.12.38",
     "@types/react": "^16.14.60",
     "@types/react-dom": "^16.9.24",
-    "@types/react-draft-wysiwyg": "^1.13.4",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
     "babel-eslint": "^10.0.3",
@@ -75,7 +75,6 @@
     "draftjs-to-html": "^0.9.1",
     "emoji-picker-react": "^3.5.1",
     "html-to-draftjs": "^1.5.0",
-    "react-draft-wysiwyg": "file:../react-draft-wysiwyg",
     "react-responsive-modal": "^6.2.0",
     "sass": "^1.51.0"
   }
