@@ -1,3 +1,4 @@
+
 .userInfo {
   display: flex;
   flex-direction: column;
@@ -24,19 +25,23 @@
   }
 }
 .halfDiv {
+  margin-top: 10px;
+  background-color: #f0f0f0; /* Fond gris clair */
+  border: 1px solid #d3d3d3; /* Bord gris de 1px solide */
+  padding: 10px; /* Un peu de padding pour l'espacement interne */
+  border-radius: 5px; /* Bordure légèrement arrondie pour un effet plus doux */
   display: flex;
   justify-content: space-between;
 }
 .replyBtn {
   background-color: transparent;
   border: none;
-  color: gray;
+  color: #9b9999;
   outline: none;
   font-weight: 600;
   font-size: 14px;
   margin: 2px 5px 0px 0px !important;
-  width: 70px;
-  padding: 5px;
+  font-size: smaller;
   border-radius: 4px;
 
   &:hover {
@@ -82,10 +87,20 @@
   flex-direction: column;
 }
 .infoStyle {
-  margin-left: 36px;
   font-size: 15px;
   p {
+    background-color: none;
     margin: 0px;
+  }
+  ul {
+    list-style: outside;
+    margin: 0px 0px 0px 15px;
+    padding: 0;
+  }
+  ol {
+    list-style: decimal;
+    margin: 0px 0px 0px 15px;
+    padding: 0;
   }
 }
 .replyIcon {

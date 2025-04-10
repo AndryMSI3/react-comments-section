@@ -69,7 +69,6 @@ export const CommentSection = ({
   cancelBtnStyle,
   overlayStyle,
   replyInputStyle,
-  logIn,
   imgStyle,
   replyTop,
   commentsCount,
@@ -112,7 +111,6 @@ export const CommentSection = ({
       <CommentSectionComponent
         overlayStyle={overlayStyle}
         hrStyle={hrStyle}
-        logIn={logIn}
         titleStyle={titleStyle}
         customNoComment={customNoComment}
         showTimestamp={showTimestamp}

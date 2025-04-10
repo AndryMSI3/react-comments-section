@@ -3,8 +3,8 @@
 .overlay {
   display: flex;
   flex-direction: column;
-  padding: 20px;
   font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 20vh;
 }
 .replySection {
   border-left: 1px solid rgb(235, 235, 235);
@@ -12,6 +12,8 @@
   padding: 0px 0px 0px 15px;
 }
 .comment-title {
+  margin-top: 2rem;
+  margin-bottom: 0.4rem;
   font-family: 'Noto Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
